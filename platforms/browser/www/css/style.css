@@ -1,0 +1,17 @@
+#entry {
+    float: left;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: darkblue;
+    margin: 5px;
+    width: 120px;
+}
+
+.field {
+    margin-left: 5%;
+}
+
+.error {
+    color: red;
+}

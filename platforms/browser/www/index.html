@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <meta charset="utf-8" />
+        <link href="css/style.css" rel="stylesheet" />        
+    </head>
+    <body>
+        <div id="login">
+            <form name="myform">
+            username: <input type="text" name="username" id="username" class="field" /><br />
+            password: <input type="password" name="password" id="password" class="field" /><br />
+            <input type="button" value="Submit" id="loginbutton"/>
+            </form>
+        </div>
+        <div id="panel">
+            <h1>success</h1>
+            <p id="accessToken"></p>
+        </div>
+        <div id="addpanel">
+            name: <input type="text" name="name" id="newname" class="field" /><br />
+            pin[0 - 40]: <input type="text" name="pin" id="newpin" class="field" /><br />
+            <input type="button" value="create" onclick="create()" />
+            <input type="button" value="return" onclick="showlist()" />
+        </div>
+        <div id="errorpanel">
+
+        </div>
+        <div id="editpanel">
+            
+        </div>
+        <script type="text/javascript" src="js/test.js"></script>
+    </body>
+</html>
